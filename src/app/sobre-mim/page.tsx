@@ -53,11 +53,28 @@ export default function Page() {
             className=" border-2 p-4 border-[#dd4d33] bg-[#dd4d33]	opacity-0 "
           >
             <h1 className="text-2xl  font-semibold mb-2">Metas</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates nam exercitationem veniam consequuntur laboriosam eaque
-              ad? Harum quis, tempora ratione consectetur odit molestias eveniet
-              culpa, iusto, modi impedit dolorum pariatur!
+            <p className="mb-2">
+              Como profissional em ascensão, estou comprometido em dominar os
+              softwares de edição de vídeo e design, como o Adobe Premiere,
+              After Effects, Photoshop e Illustrator. Estou constantemente
+              aprimorando meu conhecimento e explorando recursos avançados para
+              criar conteúdos visuais de alta qualidade.
+            </p>
+
+            <p className="mb-2">
+              {" "}
+              Minha meta final é me tornar um editor de vídeos cinematográficos
+              e designer, mas, no momento, meu foco está em aperfeiçoar minhas
+              habilidades nos programas necessários e buscar oportunidades de
+              trabalho freelance para ganhar experiência.
+            </p>
+
+            <p className="mb-2">
+              Além disso, estou ansioso para aplicar minhas habilidades em
+              projetos freelance. Trabalhar com clientes diversos me
+              proporcionará a oportunidade de enfrentar desafios criativos,
+              aprimorar minha capacidade de comunicação e expandir minha rede
+              profissional.
             </p>
           </div>
         </div>

@@ -11,12 +11,12 @@ export default function SwiperFour() {
           <video loop className="w-full" controls>
             <source src="/cidade.mp4" />
           </video>
-          <h2 className="text-center mt-8 font-semibold text-2xl tablet:mt-2 ">
-            Como a cidade se comunica
+          <h2 className="text-center mt-8 font-semibold text-2xl tablet:mt-2 mobile:text-xl ">
+           Documentário: Como a cidade se comunica
           </h2>
           <p className="mt-2 text-center">
             {" "}
-            Neste vídeo estou abordando assuntos de como a cidade se comunica.
+
           </p>
         </div>
 
@@ -24,8 +24,9 @@ export default function SwiperFour() {
           <video loop className="w-full" controls>
             <source src="/racismo.mp4" />
           </video>
-          <h2 className="text-center mt-8 font-semibold text-2xl tablet:mt-2">Racismo</h2>
-          <p className="mt-2 text-center"> Vídeo sobre o racismo</p>
+          <h2 className="text-center mt-8 font-semibold text-2xl tablet:mt-2">
+            Documentário: Racismo, um crime para a sociedade
+          </h2>
         </div>
       </div>
 

@@ -50,9 +50,9 @@ export default function eSwiperOne() {
       </div>
       <div
         id="cel"
-        className=" absolute right-0 bottom-0 h-[850px] opacity-0 tablet:h-[650px] mobile:h-[auto] mobile:h-[60%]"
+        className=" absolute right-0 bottom-0 h-[850px] opacity-0 tablet:h-[650px] mobile:h-[auto]"
       >
-        <Image src={Cel} alt="rede social" width={850} />
+        <Image src={Cel} alt="rede social" priority={true} width={850} />
       </div>
     </section>
   );

@@ -37,8 +37,7 @@ export default function SwiperTwo() {
         <Skil
           id="photoshop"
           title="Adobe Photoshop"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          reprehenderit"
+          paragraph=" Criação de ilustrações digitais,Composição de imagens,Edição de fotos"
         >
           <SiAdobephotoshop className="text-[130px] text-[#30a8ff] col-span-2 tablet:text-[80px] min-mobile: 80px mobile:hidden" />
         </Skil>
@@ -46,8 +45,7 @@ export default function SwiperTwo() {
         <Skil
           id="photoshop"
           title="Adobe Premiere"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          reprehenderit"
+          paragraph=" Edição de áudio,Efeitos visuais,Edição de vídeo"
         >
           <SiAdobepremierepro className="text-[130px] text-[#e080ff] col-span-2 tablet:text-[80px] min-mobile: 80px mobile:hidden" />
         </Skil>
@@ -55,8 +53,7 @@ export default function SwiperTwo() {
         <Skil
           id="photoshop"
           title="Canva"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          reprehenderit"
+          paragraph="Criação de posts para mídias sociais,Criação de apresentações,Criação de logotipos e identidade visual"
         >
           <SiCanva className="text-[130px] text-[#77c2ff] col-span-2 tablet:text-[80px] min-mobile: 80px mobile:hidden" />
         </Skil>
@@ -71,8 +68,7 @@ export default function SwiperTwo() {
         <Skil
           id="photoshop"
           title="Adobe After Effects"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          reprehenderit"
+          paragraph="Animação de texto e gráficos,Animação de personagens,Criação de motion graphics"
         >
           <SiAdobeaftereffects className="text-[130px] text-[#9999ff] col-span-2 tablet:text-[80px] min-mobile: 80px mobile:hidden" />
         </Skil>
@@ -80,8 +76,7 @@ export default function SwiperTwo() {
         <Skil
           id="photoshop"
           title="Blender"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          reprehenderit"
+          paragraph="Animação 3D,Modelagem 3D,Renderização"
         >
           <SiBlender className="text-[130px] text-[#ea7600] col-span-2 tablet:text-[80px] min-mobile: 80px mobile:hidden" />
         </Skil>

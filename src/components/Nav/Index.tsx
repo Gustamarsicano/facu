@@ -8,7 +8,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import Link from "next/link";
 
 export default function Nav() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   useEffect(() => {
     const itens = document.querySelectorAll("#itemNav");
