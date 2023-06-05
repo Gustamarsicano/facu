@@ -32,9 +32,9 @@ export default function Nav() {
       </div>
       <nav
         id="test"
-        className={`fixed flex flex-col justify-between bg-transparent w-16 h-screen z-10 py-4 mobile:w-full mobile:h-[60px] mobile:flex-row mobile:px-[5%] mobile:py-0 mobile:backdrop-blur-sm mobile: ${
-          open && "hidden"
-        }`}
+        className={`fixed flex flex-col justify-between bg-transparent w-16 h-screen z-10 py-4 mobile:w-full mobile:h-[60px] mobile:flex-row mobile:px-[5%] mobile:py-0 mobile:backdrop-blur-sm 
+        mobile:${open && "hidden"}
+        `}
       >
         <ul
           className={`flex flex-col items-center rotate-180 justify-around w-full bg-transparent h-3/6 mobile:rotate-0 mobile:flex-row mobile:h-[60px] mobile:justify-normal mobile:pt-3`}

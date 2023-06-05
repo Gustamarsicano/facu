@@ -12,7 +12,7 @@ export default function SwiperFour() {
             <source src="/cidade.mp4" />
           </video>
           <h2 className="text-center mt-8 font-semibold text-2xl tablet:mt-2 mobile:text-xl ">
-           Documentário: Como a cidade se comunica
+           Como a cidade se comunica
           </h2>
           <p className="mt-2 text-center">
             {" "}
@@ -25,7 +25,7 @@ export default function SwiperFour() {
             <source src="/racismo.mp4" />
           </video>
           <h2 className="text-center mt-8 font-semibold text-2xl tablet:mt-2">
-            Documentário: Racismo, um crime para a sociedade
+            Documentário: Uma doença chamada racismo
           </h2>
         </div>
       </div>

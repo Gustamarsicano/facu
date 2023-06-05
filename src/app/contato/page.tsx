@@ -25,20 +25,14 @@ export default function Page() {
             title="Gustavo Marsicano de Almeida"
             description={[
               "whatsapp: (11) 98235-6776",
-              "email: gustavo@gmail.com",
+              "email: gustavomarsicano2002@gmail.com",
             ]}
           />
 
           <div className="mt-4">
             <h3>Instagram</h3>
             <Link href="https://www.instagram.com/isaquesestudios/">
-              <p>@Isaquesestudios</p>
-            </Link>
-          </div>
-          <div className="mt-4">
-            <h3>Youtube</h3>
-            <Link href="https://www.youtube.com/@isaquesestudios994/featured">
-              <p>Isaques Estúdios</p>
+              <p>@gustavomarsi2002</p>
             </Link>
           </div>
         </div>

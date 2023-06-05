@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 
 import Cel from "./../img/OBJECT.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function eSwiperOne() {
   useEffect(() => {
@@ -38,15 +39,16 @@ export default function eSwiperOne() {
             reflexo de minha jornada artística e meu compromisso com a
             excelência.
           </p>
-
         </p>
 
-        <button
-          id="id-button"
-          className="w-full mt-4 py-2 rounded-md font-medium opacity-0"
-        >
-          Conhecer mais
-        </button>
+        <Link href="https://wa.me/5511982356776">
+          <button
+            id="id-button"
+            className="w-full mt-4 py-2 rounded-md font-medium opacity-0"
+          >
+            Conhecer mais
+          </button>
+        </Link>
       </div>
       <div
         id="cel"
