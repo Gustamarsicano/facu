@@ -1,13 +1,15 @@
-"use client"
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Mousewheel, Pagination } from 'swiper'
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel, Pagination } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import SwiperOne from '@/components/SwiperOne';
+import SwiperOne from "@/components/SwiperOne";
+import SwiperTwo from "@/components/SwiperTwo";
+import SwiperThree from "@/components/SwiperThree";
+import SwiperFour from "@/components/SwiperFour";
 
 export default function Page() {
-
   return (
     <Swiper
       direction={"vertical"}
@@ -23,14 +25,16 @@ export default function Page() {
       <SwiperSlide>
         <SwiperOne />
       </SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      <SwiperSlide>Slide 5</SwiperSlide>
-      <SwiperSlide>Slide 6</SwiperSlide>
-      <SwiperSlide>Slide 7</SwiperSlide>
-      <SwiperSlide>Slide 8</SwiperSlide>
-      <SwiperSlide>Slide 9</SwiperSlide>
+      <SwiperSlide>
+        <SwiperTwo />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SwiperThree />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SwiperFour />
+      </SwiperSlide>
+
     </Swiper>
-  )
+  );
 }
