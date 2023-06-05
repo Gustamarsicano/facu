@@ -31,7 +31,7 @@ export default function Page() {
 
           <div className="mt-4">
             <h3>Instagram</h3>
-            <Link href="https://www.instagram.com/isaquesestudios/">
+            <Link href="https://www.instagram.com/gustavomarsi2002/">
               <p>@gustavomarsi2002</p>
             </Link>
           </div>
